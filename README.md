@@ -36,7 +36,10 @@ Go to [nostr.directory](https://nostr.directory) to find all the Twitter
 accounts you know and love on Nostr. Post `#plebchain` to get followed and find
 others to follow.
 
-## Shameless Plug
+## What's the difference between a public and private key?
 
-Follow me on Nostr at my public key:
-npub1uqeexjx2djkfwzxdnrnrrch5h2k4xn0uapcgsxm94ftaxrlhy5lqywjckg
+A public key is generated from your private key. It is a unique identifier that
+allows other users to find, follow, and tag you. Your private key on the other
+hand is the key to your account. If someone else gets your private key they will
+have complete access to your account. **Don't post your private key publicly.**
+There is a reason it's called a _private_ key.
