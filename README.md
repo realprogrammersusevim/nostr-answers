@@ -36,10 +36,17 @@ Go to [nostr.directory](https://nostr.directory) to find all the Twitter
 accounts you know and love on Nostr. Post `#plebchain` to get followed and find
 others to follow.
 
+If you find someone that appears to know what they're doing and probably has a
+good feed then copy their public key and log in with it. You'll be able to see
+their feed and then log back into your own account to follow the people you
+like. Note that you won't be able to see anything personal if you log in with a
+public key, only publicly available information like who they follow, and by
+extension what posts they receive.
+
 ## What's the difference between a public and private key?
 
-A public key is generated from your private key. It is a unique identifier that
-allows other users to find, follow, and tag you. Your private key on the other
-hand is the key to your account. If someone else gets your private key they will
-have complete access to your account. **Don't post your private key publicly.**
-There is a reason it's called a _private_ key.
+A public key is generated from your private key. It's a unique identifier that
+allows other users to find, follow, and tag you. Your private key however is the
+key to your account. If someone else gets your private key they will have
+complete access to your account. **Don't post your private key publicly.** There
+is a reason it's called a _private_ key.
