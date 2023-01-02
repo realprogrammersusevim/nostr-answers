@@ -25,6 +25,11 @@ image file. Simply upload your image to [nostr.build](https://nostr.build) and
 then paste the link into your note. Many clients will automatically get the link
 and display the image.
 
+## How do I mention or quote a post?
+
+Mentioning or quoting a note is similar to tagging a user. Copy the ID of the
+note and then put `@` and then the ID of the note you wish to reference.
+
 ## What's this Lightning Network thing?
 
 You may have noticed those invoices being sent around Nostr or the lightning
