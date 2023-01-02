@@ -14,9 +14,16 @@ creating a post that includes `@` and then the public key.
 
 Another slight difference from other platforms is that you can't directly upload
 a profile picture. Instead you have to use a URL to the profile picture. To
-achieve this use an image hosting service like [imagebb](https://imgbb.com/).
-Upload the photo and then copy the URL to the image and paste that into your
-profile.
+achieve this use an image hosting service like
+[nostr.build](https://nostr.build/). Upload the photo and then copy the URL to
+the image and paste that into your profile.
+
+## How do I upload an image?
+
+Just like changing your profile picture, Nostr does not support uploading an
+image file. Simply upload your image to [nostr.build](https://nostr.build) and
+then paste the link into your note. Many clients will automatically get the link
+and display the image.
 
 ## What's this Lightning Network thing?
 
