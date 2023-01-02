@@ -62,3 +62,13 @@ allows other users to find, follow, and tag you. Your private key however is the
 key to your account. If someone else gets your private key they will have
 complete access to your account. **Don't post your private key publicly.** There
 is a reason it's called a _private_ key.
+
+## What's the difference between my client and Nostr
+
+There is an important distinction to be made when talking about Nostr. When you
+are using your client such as Damus or Astral the software or website is not
+Nostr itself. Nostr is a protocol that specifies a way for computers to talk to
+each other like the TCP/IP protocol that's used whenever you visit a website. A
+client is a piece of software that implements the Nostr protocol and follows the
+rules to talk correctly to the other computers, get the information, and display
+it for you.
