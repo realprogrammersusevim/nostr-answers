@@ -39,7 +39,7 @@ which provides instantaneous transactions at an extremely low fee.
 
 You can get in on the action by getting a Lightning Network wallet. The simplest
 to use is the [Wallet of Satoshi](https://www.walletofsatoshi.com/). Once you
-download and install that, you're ready to start zapping people satoshis (a
+download and install the app, you're ready to start zapping people satoshis (a
 denominator of Bitcoin).
 
 ## How do I find and follow others?
@@ -63,7 +63,7 @@ key to your account. If someone else gets your private key they will have
 complete access to your account. **Don't post your private key publicly.** There
 is a reason it's called a _private_ key.
 
-## What's the difference between my client and Nostr
+## What's the difference between my client and Nostr?
 
 There is an important distinction to be made when talking about Nostr. When you
 are using your client such as Damus or Astral the software or website is not
@@ -72,3 +72,18 @@ each other like the TCP/IP protocol that's used whenever you visit a website. A
 client is a piece of software that implements the Nostr protocol and follows the
 rules to talk correctly to the other computers, get the information, and display
 it for you.
+
+## How do I get verified?
+
+NIP-05 verification is used to fight impersonation. Handles on Nostr like
+`@jack` are not special. Anyone can create an account with that handle. The only
+thing that identifies you is your public key. The problem with a public key is
+that it's difficult for humans to remember a long random string of letters and
+numbers. What NIP-05 does is make sure you can tell which person is the real
+one. To be verified your public key needs to be listed on a website. This makes
+sure there can be only one `@jack` at a certain domain, in the case of Jack
+Dorsey he's verified himself [here](https://cash.app/.well-known/nostr.json).
+This makes it easy to tell that you're talking to the real Jack Dorsey because
+only he can be `jack@cash.app`. Services like
+[nostrplebs.com](https://nostrplebs.com) will verify you or you can use a custom
+domain.
