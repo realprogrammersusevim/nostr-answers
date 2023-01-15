@@ -1,6 +1,6 @@
 # Nostr Answers
 
-![Header](https://raw.githubusercontent.com/realprogrammersusevim/nostr-answers/master/images/header.jpeg)
+![Header](https://raw.githubusercontent.com/realprogrammersusevim/nostr-answers/main/images/header.jpeg)
 
 People tend to have the same questions when they first join Nostr, so here are
 the answers.
