@@ -101,15 +101,25 @@ TODO
 
 ## Is there a Nostr token?
 
-TODO
+Nostr is simply a protocol for computers talking with one another. This is like
+asking if there is an HTTPS token. No, a token has not been built into the
+protocol. If you would like to send people money or fund developers working on
+the network many, if not most, of the main clients support tipping through the
+Lightning Network.
 
 ## Do relays talk to each other?
 
-TODO
+Currently no. When you post your client contacts each of the relays in your list
+individually and sends the message. Only the clients you send the message to
+will have your message and other relays will never have or store it. Some people
+have set up personal relays to pull events from many relays and then only
+connect to their personal relay. This can help with data usage as your phone
+only has to connect and receive messages from one computer instead of many
+different ones often sending identical messages.
 
 ## Is Nostr Peer to Peer?
 
-TODO
+Nostr not peer to peer. Clients only connect to relays, not to each other.
 
 ## How do I find the best relays?
 
@@ -117,8 +127,15 @@ TODO
 
 ## How many relays should I connect to?
 
-TODO
+At least 5 is recommended. Any lower than that and you might miss messages from
+others or others might not see your messages. The maximum number of relays you
+should connect to is more personal. The more relays you have, the more data will
+be required contact each relay and download all the new messages. If you don't
+have much data on your phone you might want to stick to a lower number. If you
+only access Nostr from a desktop and have fast WiFi you could connect to many
+more relays
 
 ## How can other people find and follow me on Nostr?
 
-TODO
+The best identifier is your public key. Other people can copy and paste your
+public key into their client and find your profile.
