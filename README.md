@@ -10,7 +10,7 @@ Instead of typing `@` and then the person's handle you need to get their public
 key. Do this by going to their profile, copying the public key, and then
 creating a post that includes `@` and then the public key.
 
-## How do I change my Profile pic?
+## How do I change my Profile picture?
 
 Another slight difference from other platforms is that you can't directly upload
 a profile picture. Instead you have to use a URL to the profile picture. To
@@ -87,3 +87,38 @@ This makes it easy to tell that you're talking to the real Jack Dorsey because
 only he can be `jack@cash.app`. Services like
 [nostrplebs.com](https://nostrplebs.com) will verify you or you can use a custom
 domain.
+
+## How can I keep my private key secure?
+
+A private key can be thought of as the password to your account. Store it in a
+secure location like a password manager as you would any other password. In the
+future multi-signature setups my be available, but currently only single key
+setups are allowed.
+
+## How do I set up my own relay?
+
+TODO
+
+## Is there a Nostr token?
+
+TODO
+
+## Do relays talk to each other?
+
+TODO
+
+## Is Nostr Peer to Peer?
+
+TODO
+
+## How do I find the best relays?
+
+TODO
+
+## How many relays should I connect to?
+
+TODO
+
+## How can other people find and follow me on Nostr?
+
+TODO
