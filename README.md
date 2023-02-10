@@ -7,10 +7,9 @@ the answers.
 
 ## How do I tag someone with the `@`?
 
-Tagging another user is a bit different that other social media platforms.
-Instead of typing `@` and then the person's handle you need to get their public
-key. Do this by going to their profile, copying the public key, and then
-creating a post that includes `@` and then the public key.
+Many clients now have an autocomplete menu that will pop up when you start
+typing the person's name after the `@` symbol. Click on the name and the user's
+public key will be inserted into the message.
 
 ## How do I change my Profile picture?
 
@@ -109,6 +108,8 @@ protocol. If you would like to send people money or fund developers working on
 the network many, if not most, of the main clients support tipping through the
 Lightning Network.
 
+If you see a Nostr or Damus token it's a scam.
+
 ## Do relays talk to each other?
 
 Currently no. When you post your client contacts each of the relays in your list
@@ -141,3 +142,13 @@ more relays
 
 The best identifier is your public key. Other people can copy and paste your
 public key into their client and find your profile.
+
+## Is my handle unique?
+
+No. Anyone can choose any handle. People are distinguished by their public keys.
+
+## Is Nostr a blockchain?
+
+Nostr is not a blockchain. There is absolutely no blockchain component to the
+protocol. Clients send notes to relays which then store them and can retrieve
+them if other connected clients wish to have them.
